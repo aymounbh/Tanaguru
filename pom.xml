@@ -70,7 +70,8 @@
                 <version>2.7.2</version>
                 <configuration> 
 <!--                    <skipTests>true</skipTests>-->
-                    <encoding>UTF-8</encoding>
+                    <!--<encoding>UTF-8</encoding>-->
+                    <argLine>-Xmx1024M</argLine>
                 </configuration>
             </plugin>
         </plugins>
@@ -1160,7 +1161,7 @@
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-java</artifactId>
-                <version>LATEST</version>
+                <version>2.40.0</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.seleniumhq.selenium</groupId>
